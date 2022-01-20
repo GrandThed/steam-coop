@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
+import { getOwnedGamesService } from './utils/services/steamServices';
 
 function App() {
+
+  useEffect(() => {
+    getOwnedGamesService("195159272")?.then(console.log)
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flex justify-center h-screen items-center">
+      <h1 className="text-3xl ">Test</h1>
     </div>
   );
 }

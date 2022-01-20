@@ -1,0 +1,1 @@
+export const GET_OWN_GAMES_URL = "https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/"
