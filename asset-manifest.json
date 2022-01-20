@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/steam-coop/static/css/main.073c9b0a.css",
-    "main.js": "/steam-coop/static/js/main.c28bac5a.js",
+    "main.css": "/steam-coop/static/css/main.fa16c5ef.css",
+    "main.js": "/steam-coop/static/js/main.a349ed5e.js",
     "static/js/787.02247e24.chunk.js": "/steam-coop/static/js/787.02247e24.chunk.js",
-    "static/media/logo.svg": "/steam-coop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/steam-coop/index.html",
-    "main.073c9b0a.css.map": "/steam-coop/static/css/main.073c9b0a.css.map",
-    "main.c28bac5a.js.map": "/steam-coop/static/js/main.c28bac5a.js.map",
+    "main.fa16c5ef.css.map": "/steam-coop/static/css/main.fa16c5ef.css.map",
+    "main.a349ed5e.js.map": "/steam-coop/static/js/main.a349ed5e.js.map",
     "787.02247e24.chunk.js.map": "/steam-coop/static/js/787.02247e24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.c28bac5a.js"
+    "static/css/main.fa16c5ef.css",
+    "static/js/main.a349ed5e.js"
   ]
 }
