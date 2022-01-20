@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/steam-coop/static/css/main.fa16c5ef.css",
-    "main.js": "/steam-coop/static/js/main.a349ed5e.js",
+    "main.js": "/steam-coop/static/js/main.20863011.js",
     "static/js/787.02247e24.chunk.js": "/steam-coop/static/js/787.02247e24.chunk.js",
     "index.html": "/steam-coop/index.html",
     "main.fa16c5ef.css.map": "/steam-coop/static/css/main.fa16c5ef.css.map",
-    "main.a349ed5e.js.map": "/steam-coop/static/js/main.a349ed5e.js.map",
+    "main.20863011.js.map": "/steam-coop/static/js/main.20863011.js.map",
     "787.02247e24.chunk.js.map": "/steam-coop/static/js/787.02247e24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa16c5ef.css",
-    "static/js/main.a349ed5e.js"
+    "static/js/main.20863011.js"
   ]
 }
