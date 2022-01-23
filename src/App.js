@@ -1,16 +1,17 @@
-import { useEffect } from 'react';
-import './App.css';
-import { getOwnedGamesService } from './utils/services/steamServices';
+import "./App.css";
+import Body from "./components.js/Body";
+import Title from "./components.js/Title";
+// import {
+//   getFriendList,
+//   getOwnedGamesService,
+//   getUserInfoService,
+// } from "./utils/services/steamServices";
 
 function App() {
-
-  useEffect(() => {
-    getOwnedGamesService("195159272")?.then(console.log)
-  }, [])
-
   return (
-    <div className="App flex justify-center h-screen items-center">
-      <h1 className="text-3xl ">Test</h1>
+    <div className="App font-sans w-screen min-h-screen p-10 text-slate-900 ">
+      <Title />
+      <Body />
     </div>
   );
 }
