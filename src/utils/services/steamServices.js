@@ -3,7 +3,7 @@ import {
   GET_FRIEND_LIST_URL,
   GET_OWN_GAMES_URL,
   GET_USER_INFO_FROM_ID_URL,
-  GET_GAME_INFO
+  GET_GAME_INFO_URL
 } from "../const/steamApi";
 
 const steamAxiosInstance = axios.create();
@@ -45,7 +45,7 @@ export const getUserInfoService = (steamids = "") => {
   return steamAxiosInstance(axiosRequestConfig);
 };
 
-export const getFriendList = (steamid = "") => {
+export const getFriendListService = (steamid = "") => {
   const axiosRequestConfig = {
     params: {
       steamid,
@@ -66,7 +66,7 @@ export const getGameDetailsService = (appids = "") => {
       key: ""
     },
     method: "GET",
-    url: GET_GAME_INFO,
+    url: GET_GAME_INFO_URL,
     mode: "cors",
   };
 

@@ -10,7 +10,7 @@ function App() {
       <div className="App flex align-middle m-auto flex-col max-w-7xl font-sans w-screen min-h-screen p-10 text-slate-900 ">
         <Title />
         <SelectedGame />
-        {/* <Body /> */}
+        <Body />
       </div>
     </SelectedGameProvider>
   );

@@ -3,9 +3,10 @@ import { createContext, useState } from "react";
 export const selectedGameContext = createContext(null);
 
 const SelectedGameProvider = ({ children }) => {
-  const [selectedGame, setselectedGame] = useState(null);
+  const [selectedGame, setSelectedGame] = useState(null);
+  
   return (
-    <selectedGameContext.Provider value={{ selectedGame, setselectedGame }}>
+    <selectedGameContext.Provider value={{selectedGame, setSelectedGame }}>
       {children}
     </selectedGameContext.Provider>
   );
